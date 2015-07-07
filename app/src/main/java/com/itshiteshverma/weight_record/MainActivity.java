@@ -38,7 +38,7 @@ import java.util.GregorianCalendar;
 
 public class MainActivity extends Activity implements View.OnClickListener, TextView.OnEditorActionListener {
     Button save, view;
-    EditText weight;
+    EditText weight; //hei
     TextView CurrentWeight, PastWeight, ReducedWeight, RelativeWeight, Date, DateDiffforPast;
     TextView IntialWeightDiff, CurrentWeightDiff;
     SharedPreferences someData, DateDiff;
