@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+
+    android:textSize="17dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold|italic"
+    android:typeface="serif"
+    android:textColor="#ffff3d43"
+    android:text="Hei my Name is Hitesh Verma, I am The Creator of this Application , You can contact me via my Email Adress - itshiteshverma@gmal.com \nENJOY THE APP !!!"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:src="@drawable/mypic"
+        android:layout_gravity="center" />
+</LinearLayout>

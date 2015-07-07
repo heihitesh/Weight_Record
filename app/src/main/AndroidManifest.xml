@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itshiteshverma.weight_record">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name= "com.android.alaram.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WeightDataBaseView"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.weight_record.WeightDataBaseView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.itshiteshverma.weight_record.CheckActionDone"></service>
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.weight_record.Settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".About"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.weight_record.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Show_Dialoge"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.weight_record.Show_Dialoge" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Show_Dialoge2"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.itshiteshverma.weight_record.Show_Dialoge" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

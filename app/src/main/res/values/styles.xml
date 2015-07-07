@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="hit">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffff9d9e</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:background">@drawable/curve_shap_yello</item>
+
+    </style>
+
+    <style name="Big">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#fffcf6f3</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
+    <style name="Small">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#fffcf6f3</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
+</resources>
